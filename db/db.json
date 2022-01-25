@@ -1,0 +1,34 @@
+{
+  "bugs": [
+    {
+      "id": "bug123",
+      "description": "lorem5sdsdsadsa",
+      "resolved": false
+    },
+    {
+      "id": "bug456",
+      "description": "Celestial issue",
+      "resolved": false
+    },
+    {
+      "id": "bug4546",
+      "description": "Sample bug for Agiesd",
+      "resolved": false
+    },
+    {
+      "id": "bug675343",
+      "description": "Test bug 34",
+      "resolved": false
+    },
+    {
+      "id": "bug56hjfjghf",
+      "description": "Creator",
+      "resolved": false
+    },
+    {
+      "id": "bug34567fgfgf",
+      "description": "This belongs to severity 2",
+      "resolved": false
+    }
+  ]
+}
