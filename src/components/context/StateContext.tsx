@@ -68,6 +68,12 @@ async function editBug(id:string,payload:{description:string}):Promise<void>{
     dispatch({type:'RESTORE'})
 }
 
+async function removeBug(id:string):Promise<void>{
+    await axios.delete(API_URL+'bugs/'+id)
+    dispatch({type:'REMOVE_BUG'})
+    dispatch({type:'RESTORE'})
+}
+
 useEffect(()=>{
     getAllBugs()
 },[state.success,filter])
@@ -86,7 +92,8 @@ useEffect(()=>{
               changeBugStatus,
               editBug,
               filter,
-              setFilter
+              setFilter,
+              removeBug
             }
         }>
             {children}

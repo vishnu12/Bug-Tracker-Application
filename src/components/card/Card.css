@@ -1,0 +1,12 @@
+.card-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-header .card-header-child1 span{
+    font-size: medium;
+}
+.card-header .card-header-child2 .icon{
+    font-size: large;
+    cursor: pointer;
+}

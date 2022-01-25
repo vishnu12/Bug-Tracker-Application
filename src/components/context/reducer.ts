@@ -32,6 +32,12 @@ export default function reducer(state:IState,action:Actions):IState{
                 success:true
             }
 
+        case 'REMOVE_BUG':
+            return {
+                ...state,
+                success:true
+            }    
+
         case 'RESTORE':
             return {
                 ...state,

@@ -34,6 +34,7 @@ export type ContextType={
  addBug:(arg:Data)=>void,
  changeBugStatus:(id:string,status:string)=>void,
  editBug:(id:string,payload:{description:string})=>void,
+ removeBug:(id:string)=>void,
  filter:{value:string},
  setFilter:React.Dispatch<React.SetStateAction<{
     value: string;

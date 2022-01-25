@@ -13,7 +13,7 @@ export const Home = () => {
         <>
         <ModalComp show={show} onHide={handleClose} type={type}/>
         
-        <Row>
+        <Row className='my-4'>
             {
              bugs?.map((itm,ind)=>{
                  return (
