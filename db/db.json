@@ -3,26 +3,51 @@
     {
       "id": "bug456",
       "description": "Celestial issue",
-      "resolved": false
+      "resolved": true
     },
     {
       "id": "bug675343",
       "description": "Test bug 39",
-      "resolved": true
+      "resolved": false
     },
     {
       "id": "bug56hjfjghf",
-      "description": "Creator",
+      "description": "Creator76",
       "resolved": false
     },
     {
       "id": "bug34567fgfgf",
       "description": "This belongs to severity 2",
-      "resolved": false
+      "resolved": true
     },
     {
       "id": "bug4$566",
       "description": "Type 2 bug",
+      "resolved": false
+    },
+    {
+      "id": "bug23476",
+      "description": "Show stopper issue no 45",
+      "resolved": true
+    },
+    {
+      "id": "bugtrap",
+      "description": "Severe 2",
+      "resolved": false
+    },
+    {
+      "id": "bug45675",
+      "description": "Top layer fix\n",
+      "resolved": true
+    },
+    {
+      "id": "bug76868",
+      "description": "typo in page34",
+      "resolved": true
+    },
+    {
+      "id": "bug4657$",
+      "description": "Frequent restriction issue",
       "resolved": false
     }
   ]
